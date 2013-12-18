@@ -1,0 +1,12 @@
+name: DonsToolBox
+main: me.donmike73.donstoolbox.DonsToolBox
+version: 0.0.1
+
+author: DonMike73
+
+commands:
+   fly:
+      description: Toggles Fly Mode
+      usage: /<command> [player]
+      permission: donstoolbox.cmd.fly
+      permisison-message: You don't have permission (buhaha) to use /<command>
