@@ -21,7 +21,7 @@ public class DonsToolBox extends JavaPlugin {
     		if (sender instanceof Player) {
     			if ( ((Player) sender).getAllowFlight() ) {
         			this.getLogger().info( "Disabled fly mode for user " + sender.getName() );
-        			sender.sendMessage("Flugmodus wurde deaktiviert!" );
+        			sender.sendMessage("Flugmodus wurde deaktiviert! Blablubb" );
     				((Player) sender).setAllowFlight(false);
     			}
     			else {
